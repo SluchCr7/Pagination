@@ -1,0 +1,65 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #3d64e6;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'poppins' , sans-serif;
+}
+#root{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+    background-color: #000;
+    padding: 20px;
+}
+.box_arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    /* border: 1px solid #fff; */
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 3rem;
+    color: #fff;
+    padding: 10px;
+    background-color: #3d64e6;
+}
+.box_page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #f32;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 3rem;
+    color: #fff;
+    padding: 10px;
+}
+.active{
+    background-color: #f32;
+    color: #000;
+}
+.boxlink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.activeButt{
+    pointer-events: none;
+    background-color: #3d64e625;
+}
